@@ -176,7 +176,7 @@ function App() {
       </div>
 
       {/* ===== DISPLAY TASKS SECTION ===== */}
-      <div className="tasks-section">
+      {/* <div className="tasks-section">
         {loading ? (
           <div className="loading">Loading tasks...</div>
         ) : tasks.length === 0 ? (
@@ -198,9 +198,9 @@ function App() {
                     onChange={(e) => setEditDescription(e.target.value)}
                     className="task-textarea"
                   />
-                  <div className="edit-buttons">
+                  <div className="edit-buttons"> */}
                     {/* Button triggers UPDATE operation */}
-                    <button onClick={saveEdit} className="save-button">
+                    {/* <button onClick={saveEdit} className="save-button">
                       Save
                     </button>
                     <button onClick={cancelEdit} className="cancel-button">
@@ -213,22 +213,22 @@ function App() {
                 <>
                   <h3 className="task-title">{task.title}</h3>
                   <p className="task-description">{task.description}</p>
-                  <div className="task-buttons">
+                  <div className="task-buttons"> */}
                     {/* Button triggers EDIT mode (not database operation yet) */}
-                    <button onClick={() => startEdit(task)} className="edit-button">
+                    {/* <button onClick={() => startEdit(task)} className="edit-button">
                       Edit
-                    </button>
+                    </button> */}
                     {/* Button triggers DELETE operation */}
-                    <button onClick={() => deleteTask(task.id)} className="delete-button">
+                    {/* <button onClick={() => deleteTask(task.id)} className="delete-button">
                       Delete
                     </button>
-                  </div>
-                </>
+                  </div> */}
+                {/* </>
               )}
             </div>
           ))
         )}
-      </div>
+      </div> */}
     </div>
   )
 }
