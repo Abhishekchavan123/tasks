@@ -85,7 +85,7 @@ function ViewTasks() {
   return (
     <div className="app">
       <h1>All Tasks (Full Operations)</h1>
-      <button onClick={() => navigate('/')} className="back-button">Back to Main</button>
+      <button onClick={() => navigate('/app')} className="back-button">Back to Main</button>
       <div className="tasks-section">
         {loading ? (
           <div className="loading">Loading tasks...</div>
